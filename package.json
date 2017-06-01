@@ -1,0 +1,21 @@
+{
+  "name": "selenium-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "csharp-examples-of-selenium-commands.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2",
+    "selenium-webdriver": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
