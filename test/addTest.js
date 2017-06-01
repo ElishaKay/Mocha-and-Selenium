@@ -6,4 +6,9 @@ describe('Add', function(){
 		var result = add(5);
 		assert.equal(result, 10);
 	});
+
+	it('should return type number', function(){
+		var result = add(5);
+		assert.typeOf(result, 'number');
+	});
 });
