@@ -3,7 +3,7 @@ test = require('selenium-webdriver/testing'),
 webdriver = require('selenium-webdriver');
  
 test.describe('Selenium with Mocha Test', function() {
-  this.timeout(15000);
+  this.timeout(30000);
   test.it('should work', function() {
     var driver = new webdriver.Builder().
     withCapabilities(webdriver.Capabilities.chrome()).
